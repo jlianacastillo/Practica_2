@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Practica_2</string>
+    <string name="Titulo">Instituto Tecnologico de Merida</string>
+    <string name="Nombre">Juliana Castillo</string>
+    <string name="Asignatura">Programación de Dispositivos Moviles</string>
+    <string name="Fecha">9 de Febrero de 2023</string>
+
+    <string name="Lunes">Lunes</string>
+    <string name="row1Lunes">Programacion de Dispositivos Moviles</string>
+    <string name="Martes">Martes</string>
+    <string name="row1Martes">Administracion de Redes</string>
+    <string name="row2Martes">Investigacion</string>
+    <string name="Miercoles">Miercoles</string>
+    <string name="row1Miercoles">Gestion de Proyectos de Software</string>
+    <string name="Jueves">Jueves</string>
+    <string name="row1Jueves">Programacion de Dispositivos Moviles</string>
+    <string name="Viernes">Viernes</string>
+    <string name="row1Viernes">Administracion de Redes</string>
+
+</resources>
