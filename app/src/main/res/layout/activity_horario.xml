@@ -8,18 +8,21 @@
     tools:context=".Horario">
 
     <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="357dp"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="88dp"
         android:background="@android:color/white">
 
         <TableRow
-            android:layout_width="357dp"
-            android:layout_height="44dp"
-            android:background="@color/pink">
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/pink"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="0dp"
@@ -32,52 +35,89 @@
                 android:textSize="13sp" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0"
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
                 android:gravity="center_horizontal"
-                android:padding="15sp"
+                android:padding="1sp"
                 android:text="@string/Martes"
                 android:textColor="@android:color/white"
                 android:textSize="13sp" />
 
             <TextView
-                android:layout_width="2dp"
+                android:id="@+id/textView31"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="9"
+                android:layout_weight="5"
                 android:gravity="center_horizontal"
-                android:padding="15sp"
+                android:padding="1sp"
                 android:text="@string/Miercoles"
                 android:textColor="@android:color/white"
-                android:textSize="11sp" />
+                android:textSize="13sp" />
 
             <TextView
-                android:layout_width="17dp"
-                android:layout_height="30dp"
-                android:layout_weight="8"
+                android:id="@+id/textView33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
                 android:gravity="center_horizontal"
                 android:padding="1sp"
                 android:text="@string/Jueves"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:textSize="13sp" />
 
             <TextView
+                android:id="@+id/textView34"
                 android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_height="match_parent"
                 android:layout_weight="5"
                 android:gravity="center_horizontal"
-                android:padding="1sp"
+                android:padding="3sp"
                 android:text="@string/Viernes"
                 android:textColor="@android:color/white"
-                android:textSize="11sp" />
+                android:textSize="13sp"
+                android:translationX="5dp" />
 
 
         </TableRow>
 
 
+    </TableLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="174dp"
+        android:layout_height="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="109dp"
+        app:srcCompat="@drawable/merida" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="218dp"
+        android:backgroundTint="@color/pink"
+        android:text="Ir a Portada" />
+
+    <TableLayout
+        android:layout_width="333dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="88dp">
+
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="52dp">
+            android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="0dp"
@@ -95,6 +135,56 @@
                 android:gravity="center_horizontal"
                 android:padding="1sp"
                 android:text="@string/row1Martes"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity=""
+                android:padding="1sp"
+                android:text="@string/row1Miercoles"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:text="@string/row1Jueves"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:text="@string/row1Viernes"
+                android:textSize="7sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:text="@string/row2Martes"
                 android:textSize="7sp" />
 
             <TextView
@@ -112,7 +202,6 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="1sp"
-                android:text="@string/row1Jueves"
                 android:textSize="7sp" />
 
             <TextView
@@ -121,370 +210,10 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="1sp"
-                android:text="@string/row1Viernes"
-                android:textSize="7sp" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-        </TableRow>
-
-    </TableLayout>
-
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="153dp"
-        android:layout_height="149dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="286dp"
-        app:srcCompat="@drawable/merida" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="133dp"
-        android:backgroundTint="@color/pink"
-        android:text="Ir a Portada" />
-
-    <TableRow
-        android:layout_width="333dp"
-        android:layout_height="40dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="147dp">
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Lunes"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Martes"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity=""
-            android:padding="1sp"
-            android:text="@string/row1Miercoles"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Jueves"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Viernes"
-            android:textSize="7sp" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="52dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:text="@string/row1Lunes"
-                android:textSize="7sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:text="@string/row1Martes"
-                android:textSize="7sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity=""
-                android:padding="1sp"
-                android:text="@string/row1Miercoles"
-                android:textSize="7sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:text="@string/row1Jueves"
-                android:textSize="7sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:text="@string/row1Viernes"
-                android:textSize="7sp" />
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:id="@+id/textView26"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    android:padding="1sp"
-                    android:textSize="7sp" />
-
-                <TextView
-                    android:id="@+id/textView27"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    android:padding="1sp"
-                    android:text="@string/row1Miercoles"
-                    android:textSize="7sp" />
-
-                <TextView
-                    android:id="@+id/textView28"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:gravity=""
-                    android:padding="1sp"
-                    android:textSize="7sp" />
-
-                <TextView
-                    android:id="@+id/textView29"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    android:padding="1sp"
-                    android:textSize="7sp" />
-
-                <TextView
-                    android:id="@+id/textView30"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    android:padding="1sp"
-                    android:text="@string/row2Miercoles"
-                    android:textSize="7sp" />
-            </TableRow>
-
-        </TableRow>
-    </TableRow>
-
-    <TableRow
-        android:layout_width="335dp"
-        android:layout_height="52dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="125dp">
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Lunes"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Martes"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity=""
-            android:padding="1sp"
-            android:text="@string/row1Miercoles"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Jueves"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Viernes"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Lunes"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Martes"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity=""
-            android:padding="1sp"
-            android:text="@string/row1Miercoles"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Jueves"
-            android:textSize="7sp" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:padding="1sp"
-            android:text="@string/row1Viernes"
-            android:textSize="7sp" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:textSize="7sp" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:text="@string/row2Martes"
-                android:textSize="7sp" />
-
-            <TextView
-                android:id="@+id/textView18"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity=""
-                android:padding="1sp"
-                android:text="@string/row1Miercoles"
-                android:textSize="7sp" />
-
-            <TextView
-                android:id="@+id/textView19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:textSize="7sp" />
-
-            <TextView
-                android:id="@+id/textView20"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:text="@string/row2Martes"
+                android:text="@string/row2Viernes"
                 android:textSize="7sp" />
 
         </TableRow>
-    </TableRow>
-
-    <TableLayout
-        android:layout_width="331dp"
-        android:layout_height="33dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="204dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -502,57 +231,84 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:textSize="7sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity=""
-                android:padding="1sp"
-                android:textSize="7sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="1sp"
-                android:textSize="7sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:baselineAligned="false"
                 android:gravity="center_horizontal"
                 android:padding="1sp"
                 android:text="@string/row3Martes"
                 android:textSize="7sp" />
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity=""
+                android:padding="1sp"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:text="@string/row3Viernes"
+                android:textSize="7sp" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:textSize="7sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:textSize="7sp" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity=""
+                android:padding="1sp"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:textSize="7sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="1sp"
+                android:text="@string/row4Viernes"
+                android:textSize="7sp" />
+
+        </TableRow>
     </TableLayout>
 
 

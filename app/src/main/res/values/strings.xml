@@ -9,7 +9,7 @@
     <string name="row1Lunes">Programacion de Dispositivos Moviles</string>
     <string name="Martes">Martes</string>
     <string name="row1Martes">Administracion de Redes</string>
-    <string name="row2Martes">Investigacion I</string>
+    <string name="row2Martes">Taller de Investigacion I</string>
     <string name="row3Martes">Gestion de Proyectos de Software</string>
     <string name="Miercoles">Miercoles</string>
     <string name="row1Miercoles">Gestion de Proyectos de Software</string>
@@ -18,5 +18,8 @@
     <string name="row1Jueves">Programacion de Dispositivos Moviles</string>
     <string name="Viernes">Viernes</string>
     <string name="row1Viernes">Administracion de Redes</string>
+    <string name="row2Viernes">Taller de Investigacion I</string>
+    <string name="row3Viernes">Ciencia de Datos</string>
+    <string name="row4Viernes">Gestion de Proyectos de Software</string>
 
 </resources>
