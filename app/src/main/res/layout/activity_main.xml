@@ -29,6 +29,7 @@
         android:id="@+id/button2"
         android:layout_width="379dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
         android:onClick="lanzarHorario"
         android:text="Horario"
         app:layout_constraintBottom_toBottomOf="parent"
