@@ -7,13 +7,73 @@
     android:backgroundTint="@color/pink"
     tools:context=".Horario">
 
+    <TableRow
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="115dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:padding="1sp"
+            android:text="@string/row2Martes"
+            android:textSize="7sp" />
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity=""
+            android:padding="1sp"
+            android:text="@string/row2Miercoles"
+            android:textSize="7sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:padding="1sp"
+            android:textSize="7sp" />
+
+        <TextView
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:padding="1sp"
+            android:text="@string/row2Miercoles"
+            android:textSize="7sp" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        android:padding="1sp"
+        android:text="@string/row1Martes"
+        android:textSize="7sp" />
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
         android:background="@android:color/white">
 
-        <TableRow android:background="@color/pink">
+        <TableRow
+            android:layout_height="52dp"
+            android:background="@color/pink">
 
             <TextView
                 android:layout_width="0dp"
@@ -69,7 +129,9 @@
         </TableRow>
 
 
-        <TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
 
             <TextView
                 android:layout_width="0dp"

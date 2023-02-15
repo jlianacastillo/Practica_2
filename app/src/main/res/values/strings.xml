@@ -10,8 +10,10 @@
     <string name="Martes">Martes</string>
     <string name="row1Martes">Administracion de Redes</string>
     <string name="row2Martes">Investigacion</string>
+    <string name="row3Martes">Gestion de Proyectos de Software</string>
     <string name="Miercoles">Miercoles</string>
     <string name="row1Miercoles">Gestion de Proyectos de Software</string>
+    <string name="row2Miercoles">Ciencia de Datos</string>
     <string name="Jueves">Jueves</string>
     <string name="row1Jueves">Programacion de Dispositivos Moviles</string>
     <string name="Viernes">Viernes</string>
